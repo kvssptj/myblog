@@ -1,0 +1,158 @@
+body {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #1d2d35;
+    background-color: #fbf7f0;
+}
+small, .small, footer {
+    font-size: 0.8em;
+    color: #666;
+}
+h1, h2, h3, small, .small, footer {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+
+p {
+    color: #333333;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+
+h1 {
+    font-size: 74px;
+}
+
+h1, h2, h3, cite, h2 a {
+    color:#1d2d35;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: 1d2d35;
+    margin: 0;
+    line-height: 1.12;
+}
+
+h3 {
+    font-size: 32px;
+    letter-spacing: -0.6px;
+    margin-top: 46px;
+}
+
+a {
+    text-decoration: none;
+    color: #000fff;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    transition: 200ms border-color ease-in-out, 200ms color ease-in-out;
+}
+
+
+a:visited {
+    color: #003366;
+}
+a:hover {
+    border-color: #000fff;
+}
+
+footer{
+    background-color: #000fff;
+    padding: 136px 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 2em;
+}
+li, dd {
+    margin-bottom: 1em;
+}
+figure {
+    margin: 0;
+}
+blockquote {
+    margin: 0;
+}
+pre {
+    color: #fff;
+    background-color: #333;
+    padding: 0.25em;
+    line-height: 1;
+}
+code {
+    font-size: 0.8em;
+}
+img, iframe {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+label {
+    margin: 0.5em 0 0.2em;
+}
+section {
+    margin-bottom: 4em;
+}
+section#masthead {
+    margin-bottom: 1em;
+    border-top: 0.5em solid #1d2d35;
+    padding-top: 1em;
+}
+@media screen and (max-width: 400px) {
+    section#masthead h1 {
+    font-size: 2em;
+}
+}@media screen and (min-width: 400px) {
+    section#masthead h1 {
+    font-size: 3em;
+}
+}
+
+section#masthead h1 {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+}
+section#masthead h1 a {
+    text-decoration: None;
+    color: #1d2d35;
+}
+
+section#posts ul a {
+    text-decoration: none;
+    color: #000fff;
+    border-bottom: 2px solid rgba(0, 15, 255, .32);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    transition: 200ms border-color ease-in-out, 200ms color ease-in-out;
+}
+
+body#home div#content h2 small {
+    margin-left: 2em;
+}
+body#home div#content ul {
+    padding-left: 0;
+}
+body#home div#content ul li {
+    list-style-type: square;
+}
+body#home div#content section#photos img {
+    display: inline;
+}
+div.blogparent {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0 -0.5em 0;
+}
+body#oneblog div#content article header h1 {
+    margin-bottom: 0;
+}
+}
