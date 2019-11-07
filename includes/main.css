@@ -7,7 +7,6 @@ body {
     font-weight: 600;
     line-height: 30px;
     color: #1d2d35;
-    background-color: #fbf7f0;
 }
 small, .small, footer {
     font-size: 0.8em;
@@ -54,10 +53,6 @@ a {
     transition: 200ms border-color ease-in-out, 200ms color ease-in-out;
 }
 
-
-a:visited {
-    color: #003366;
-}
 a:hover {
     border-color: #000fff;
 }
@@ -93,6 +88,8 @@ img, iframe {
     max-width: 100%;
     display: block;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 label {
